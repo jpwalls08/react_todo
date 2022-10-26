@@ -1,0 +1,14 @@
+.routerInfo {
+    background-color: rgba(200, 200, 200, .75);
+    padding: 4em;    
+}
+
+.authInfo {
+    background-color: rgba(50, 50, 50, .75);
+    color: #fff;
+    padding: 4em;
+}
+
+.routerInfo ol, .routerInfo ul, .authInfo ol, .authInfo ul {
+    text-align: left;
+}

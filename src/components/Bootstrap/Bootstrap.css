@@ -1,0 +1,14 @@
+.carousel-item {
+    height: 75vh;
+}
+
+.carousel-caption {
+    background-image: radial-gradient(circle at 50% 50%, rgba(200, 200, 200, .75), transparent);
+    color: #000 !important;
+}
+
+@media only screen and (max-width: 1023px) {
+    .carousel-item {
+        height: unset;
+    }
+}
