@@ -37,7 +37,7 @@ export default function SingleToDo(props) {
       </div>
       }
         <h3>{props.toDos.name}</h3>
-        {props.toDos.done !== null ?
+        {props.toDos.done === null ?
                        
             <p>{props.toDos.name}<br />  <strong>Complete</strong></p> :
             <p>{props.toDos.name}<br />  <strong>Incomplete</strong></p> 
