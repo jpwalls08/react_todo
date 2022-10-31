@@ -10,6 +10,7 @@ export default function Navigation() {
       <Navbar.Toggle />
       <Navbar.Collapse className='justify-content-end'>
         <Nav>
+          {/* <Link to='/home' className='nav-link'>Home</Link> */}
           <Link to='/toDos' className='nav-link'>ToDo</Link>
           <Link to='/categories' className='nav-link'>Category</Link>
           <Link to='/login' className='nav-link'>Login</Link>
